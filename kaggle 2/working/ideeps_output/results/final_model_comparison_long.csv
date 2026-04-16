@@ -1,0 +1,13 @@
+dataset_name,model_name,feature_type,accuracy,precision,recall,f1_score,roc_auc,pr_auc,train_size,val_size,test_size,friendly_model_name
+10_PARCLIP_ELAVL1A_hg19,main_ideeps_like_sequence_structure_bilstm,sequence_plus_structure,0.894,0.7758215962441315,0.661,0.7138228941684666,0.8931320625,0.7346056900888597,24000,6000,10000,Main model: iDeepS
+10_PARCLIP_ELAVL1A_hg19,paper_baseline_deepbind,sequence_cnn_only,0.8934,0.0,0.0,0.7118918918918918,0.8948275624999998,0.0,24000,6000,10000,Benchmark 2: DeepBind (Seq CNN)
+10_PARCLIP_ELAVL1A_hg19,paper_baseline_oli_linear_svm,oli_tetranucleotide_composition,0.8028,0.5044025157232704,0.802,0.6193050193050194,0.8589363750000001,0.6143193582711793,24000,6000,10000,Benchmark 1: Oli (Linear SVM)
+17_ICLIP_HNRNPC_hg19,main_ideeps_like_sequence_structure_bilstm,sequence_plus_structure,0.9375,0.8223159868729489,0.877,0.8487781272683281,0.9765588125,0.9078456516285924,24000,6000,10000,Main model: iDeepS
+17_ICLIP_HNRNPC_hg19,paper_baseline_deepbind,sequence_cnn_only,0.9363,0.0,0.0,0.8409488139825219,0.97461625,0.0,24000,6000,10000,Benchmark 2: DeepBind (Seq CNN)
+17_ICLIP_HNRNPC_hg19,paper_baseline_oli_linear_svm,oli_tetranucleotide_composition,0.882,0.6549508692365835,0.8665,0.7460180800688765,0.942670125,0.7660594197755786,24000,6000,10000,Benchmark 1: Oli (Linear SVM)
+28_ICLIP_TIA1_hg19,main_ideeps_like_sequence_structure_bilstm,sequence_plus_structure,0.8815,0.7370564281559046,0.6335,0.6813659585910191,0.926883875,0.74933422589386,24000,6000,10000,Main model: iDeepS
+28_ICLIP_TIA1_hg19,paper_baseline_deepbind,sequence_cnn_only,0.8797,0.0,0.0,0.6555969081019182,0.926939875,0.0,24000,6000,10000,Benchmark 2: DeepBind (Seq CNN)
+28_ICLIP_TIA1_hg19,paper_baseline_oli_linear_svm,oli_tetranucleotide_composition,0.8073,0.5112550107924761,0.829,0.6324623307266832,0.8881756875,0.629341664290163,24000,6000,10000,Benchmark 1: Oli (Linear SVM)
+synthetic,main_ideeps_like_sequence_structure_bilstm,sequence_plus_structure,1.0,1.0,1.0,1.0,1.0,1.0,8000,2000,2000,Main model: iDeepS
+synthetic,paper_baseline_deepbind,sequence_cnn_only,0.7485,0.0,0.0,0.7980730630268968,0.7680569999999999,0.0,8000,2000,2000,Benchmark 2: DeepBind (Seq CNN)
+synthetic,paper_baseline_oli_linear_svm,oli_tetranucleotide_composition,0.652,0.639963167587477,0.695,0.6663470757430489,0.7209249999999999,0.6514610845374985,8000,2000,2000,Benchmark 1: Oli (Linear SVM)
